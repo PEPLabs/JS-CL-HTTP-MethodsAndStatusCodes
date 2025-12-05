@@ -1,0 +1,35 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/EndpointsTest.java",
+      "testCases": [
+        {
+          "methodName": "testGetRequest",
+          "label": "GET /get-request",
+          "description": "Sends a GET request to /get-request and verifies the response body is 'GET request endpoint' and status code is 202."
+        },
+        {
+          "methodName": "testPostRequest",
+          "label": "POST /post-request",
+          "description": "Sends a POST request to /post-request and verifies the response body is 'POST request endpoint' and status code is 201."
+        },
+        {
+          "methodName": "testPutRequest",
+          "label": "PUT /put-request",
+          "description": "Sends a PUT request to /put-request and verifies the response body is 'PUT request endpoint' and status code is 201."
+        },
+        {
+          "methodName": "testDeleteRequest",
+          "label": "DELETE /delete-request",
+          "description": "Sends a DELETE request to /delete-request and verifies the response body is 'DELETE request endpoint' and status code is 200."
+        },
+        {
+          "methodName": "testPatchRequest",
+          "label": "PATCH /patch-request",
+          "description": "Sends a PATCH request to /patch-request and verifies the response body is 'PATCH request endpoint' and status code is 201."
+        }
+      ]
+    }
+  ]
+}
